@@ -28,7 +28,7 @@ const PlatformIconList = ({ platforms }: Props) => {
       {platforms.map((platform) => (
         <Icon
           as={iconMap[platform.slug]}
-          key={platform.slug}
+          key={platform.id}
           marginRight="5px"
           width="20px"
           height="20px"
